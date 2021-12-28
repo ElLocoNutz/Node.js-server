@@ -1,0 +1,31 @@
+<h1>Crear cuenta</h1>
+<h2>El regstro solo toma unos segundos</h2>
+
+<div class="formWrapper">
+    <form id="accountCreate" action="/api/users" method="POST">
+        <div class="formError"></div>
+        <div class="inputWrapper">
+          <div class="inputLabel">Nombre</div>
+          <input type="text" name="firstName" placeholder="Juan" />
+        </div>
+        <div class="inputWrapper">
+          <div class="inputLabel">Apellido</div>
+          <input type="text" name="lastName" placeholder="Smith" />
+        </div>
+        <div class="inputWrapper">
+          <div class="inputLabel">Teléfono</div>
+          <input type="text" name="phone" placeholder="(415) 123-4567" />
+        </div>
+        <div class="inputWrapper">
+          <div class="inputLabel">Password</div>
+          <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="inputWrapper">
+          <div class="inputLabel">Acepta los Terminos y Condiciones?</div>
+          <input type="checkbox" name="tosAgreement" value="acepto">
+        </div>
+        <div class="inputWrapper ctaWrapper">
+          <button type="submit" class="cta blue">Enviar</button>
+        </div>
+      </form>
+</div>
