@@ -5,3 +5,4 @@ node_modules
 .DS_store
 .env
 .data/checks/
+.logs/*
